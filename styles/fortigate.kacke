@@ -1,0 +1,16 @@
+atom-text-editor::shadow {
+    .style1{
+      color: #d8d8d8;
+      background-color: #7f0000;
+    }
+    .remove {
+        // color: @text-color-info;
+        color: #ffba8e;
+        background-color: #4a4a4a;
+    }
+    .broken {
+      // color: @text-color-error;
+      color: #d8d8d8;
+      background-color: #7f0000;
+    }
+}

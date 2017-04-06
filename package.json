@@ -1,0 +1,18 @@
+{
+  "name": "language-fortigate",
+  "main": "./lib/language-fortigate",
+  "version": "0.0.0",
+  "description": "This Package is for Fortigate-Config Language Support",
+  "keywords": [ "language", "grammar", "fortiage", "firewall", "cli", "syntax"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-fortigate:toggle"
+  },
+  "repository": "https://github.com/lunzalot/language-fortigate",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

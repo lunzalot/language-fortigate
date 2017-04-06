@@ -1,0 +1,39 @@
+'scopeName': 'source.fortigate'
+'name': 'FORTIGATE'
+'fileTypes':[
+  'conf'
+]
+'patterns': [
+  {
+    'match': '(?<!\\w)@?(firewall|system|router|vpn)\\b'
+    'name': 'inline-block highlight-error'
+  }
+  {
+    'match': '(?<!\\w)@?(config |end)\\b'
+    'name': 'entity.name.function'
+  }
+  {
+    'match': '(?<!\\w)@?(global|policy|interface|user|service|local|dns)\\b'
+    'name': 'string'
+  }
+  {
+    'match': '(?<!\\w)@?(edit|next)\\b'
+    'name': 'entity.name.tag'
+  }
+  {
+    'match': '(?<!\\w)@?(set|enable|disable)\\b'
+    'name': 'support.constant'
+  }
+  {
+    'match': '(?<!\\w)@?(admin|test)\\b'
+    'name': 'inline-block highlight-warning'
+  }
+  {
+    'match': '(".*")'
+    'name': 'keyword'
+  }
+  {
+    'match': '(#.*)'
+    'name': 'comment.line'
+  }
+]
