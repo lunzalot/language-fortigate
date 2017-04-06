@@ -1,9 +1,15 @@
 {
   "name": "language-fortigate",
   "main": "./lib/language-fortigate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This Package is for Fortigate-Config Language Support",
-  "keywords": [ "language", "grammar", "fortiage", "firewall", "cli", "syntax"
+  "keywords": [
+    "language",
+    "grammar",
+    "fortiage",
+    "firewall",
+    "cli",
+    "syntax"
   ],
   "activationCommands": {
     "atom-workspace": "language-fortigate:toggle"
@@ -13,6 +19,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
