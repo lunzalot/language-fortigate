@@ -1,7 +1,7 @@
 {
   "name": "language-fortigate",
   "main": "./lib/language-fortigate",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This Package is for Fortigate-Config Language Support",
   "keywords": [
     "language",
